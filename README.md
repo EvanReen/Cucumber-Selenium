@@ -14,7 +14,7 @@ selenium-cucumber is a behavior driven development (BDD) approach to write autom
 
 Go to your project directory from terminal and hit following commands
 
- - mvn test (defualt will run on local firefox browser)
+ - mvn test (will run on chrome by default)
  - mvn test "-Dbrowser=chrome" (to use any other browser)
  - mvn test -Dcucumber.options="classpath:features/my_first.feature" to run specific feature.
  - mvn test -Dcucumber.options="–-plugin html:target/result-html" to generate a HTML report.
