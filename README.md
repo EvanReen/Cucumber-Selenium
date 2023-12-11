@@ -19,3 +19,7 @@ Go to your project directory from terminal and hit following commands
  - mvn test -Dcucumber.options="classpath:features/my_first.feature" to run specific feature.
  - mvn test -Dcucumber.options="–-plugin html:target/result-html" to generate a HTML report.
  - mvn test -Dcucumber.options="–-plugin json:target/result-json" to generate a JSON report.
+
+# Framework Architecture
+
+![image](https://github.com/EvanReen/Cucumber-Selenium/assets/74310324/5766f1f3-e782-4695-ae4d-8f058485010c)
